@@ -6,7 +6,7 @@ import Loading from "./Loading";
 // Lazy-load your page components (with a simulated delay for testing)
 const Home = lazy(() =>
   new Promise(resolve =>
-    setTimeout(() => resolve(import("./Home")), 3500)
+    setTimeout(() => resolve(import("./Home")), 1600)
   )
 );
 const About = lazy(() => import("./About"));
